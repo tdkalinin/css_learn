@@ -1,0 +1,173 @@
+@font-face {
+    font-family: "Open Sans Semibold";
+    src: url(fonts/ofont.ru_Open_Sans_Semibold.ttf) format("TrueType");
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(fonts/ofont.ru_Open_Sans_Bold.ttf) format("TrueType");
+}
+
+body {
+    font-family: "Open Sans Semibold";
+    font-size: 15px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+h1 {
+    height: 60px;
+
+    font-family: "Open Sans Bold";
+    font-size: 30px;
+    text-transform: capitalize;
+
+    letter-spacing: 2px;
+}
+
+h2 {
+    width: 630px;
+    height: 150px;
+    margin: 0 auto;
+
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+/* HEADER ===============
+========================= */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 42px 0; */
+}
+
+.logo {
+    font-weight: bold;
+    font-family: "Open Sans Bold";
+    font-size: 30px;
+    
+    text-transform: capitalize;
+}
+
+.nav__link {
+    display: inline-block;
+    margin-left: 40px;
+
+    color: #000;
+    opacity: 0.7;
+
+    font-size: 20px;
+
+    transition: text-decoration-color 0.2s, opacity 0.2s;
+}
+
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+
+/* INTRO =============
+===================== */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: url("img/header/background.png") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+}
+
+.intro__inner{
+    margin-top: 120px;
+
+    color: #fff;
+    text-align: center;
+    line-height: 1;
+    height: auto;
+}
+
+.intro__title {
+    margin-bottom: 40px;
+
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
+.intro__subtitle {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.intro__buttons {
+    margin: 0 auto;
+    display: flex;
+    width: 510px;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.intro__button {
+    display: block;
+    padding: 23px 45px;
+    margin-left: 30px;
+
+    text-transform: uppercase;
+    font-size: 20px;
+
+    background-color: transparent;
+    border: 3px solid #fff;
+
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.intro__button:first-child {
+    margin-left: 0px;
+}
+
+.intro__button:hover {
+    background-color: #00897b;
+    border-color: transparent;
+}
