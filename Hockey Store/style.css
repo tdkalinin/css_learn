@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+    background: url("background.png") no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page {
+    margin: 0 auto;
+    max-width: 1778px;
+    height: 1000px;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.header {
+    margin: 30px 40px;
+    min-width: 1000px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__btn {
+    margin-left: 75px;
+    font-size: 20px;
+
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 3px;
+    color: #000480;
+    text-transform: capitalize;
+
+    transition: text-decoration-color 0.2s;
+}
+
+.nav__btn:first-child {
+    margin-left: 0;
+}
+
+.nav__btn:hover {
+    text-decoration-color: #000480;
+}
+
+.sign__btn {
+    padding: 12px 50px;
+    background-color: #000480;
+
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.sign__btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.intro {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 10%;
+    width: 820px;
+
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 175px;
+    font-weight: normal;
+    line-height: 1;
+
+    color: #156ac6;
+}
+     
+h2 {
+    margin-top: 34px;
+    font-size: 48px;
+    color: #a144a1;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+/* intro buttons 
+================================ */
+.intro__buttons {
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro__button {
+
+    font-size: 28px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+
+    padding: 17px 42px;
+    background-color: #9c429b;
+    border-radius: 22px;
+
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.intro__button:first-child {
+    background-color: #156ac6;
+}
+
+.intro__button:hover {
+    background-color: white;
+    color: black;
+}
